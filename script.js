@@ -1,2 +1,3 @@
-let nome = "Mateus"
-console.log(`Olá, ${nome}!`)
+export function saudacao(nome){
+    return `Olá, ${nome}!`
+}

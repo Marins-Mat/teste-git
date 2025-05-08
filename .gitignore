@@ -1,0 +1,17 @@
+# Ignora a pasta com as dependências
+node_modules/
+
+# Arquivo que trava as dependências do npm (você pode manter ou não, depende do time)
+package-lock.json
+
+# Ignora logs e erros
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignora configurações do VS Code
+.vscode/
+
+# Ignora arquivos temporários do sistema
+.DS_Store
+Thumbs.db

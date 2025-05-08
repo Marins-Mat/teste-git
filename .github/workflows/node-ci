@@ -1,0 +1,26 @@
+name: CI/CD - Node
+
+on: 
+  pushes: 
+    push:
+      branch: [main]
+    pull-request:
+      branch: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout do código
+        uses: actions/checkout@v3
+      - name: Instalando Node
+        uses: actions/setup-node@v3
+
+      - name: Instalar dependências
+        run: npm install
+        with:
+          node-version: '22.15.0'
+        
+        - name: Rodar testes
+          run: npm test
+          
