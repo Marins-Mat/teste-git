@@ -1,10 +1,24 @@
-
-body{
+body {
     background-color: burlywood;
-
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
 }
 
-.titulo{
+.principal {
+    
+    border-radius: 15px;
+    border: black 1px solid;
+    background-color: white;
+    min-height: 80vh;
+    width: 50vh;
+}
+
+li{
+    padding-top: 15px;
+}
+
+.titulo {
     display: flex;
     justify-content: center;
     text-decoration: underline;
