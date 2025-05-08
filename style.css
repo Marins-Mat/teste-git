@@ -1,11 +1,12 @@
 
+body{
+    background-color: burlywood;
+
+}
+
 .titulo{
     display: flex;
     justify-content: center;
     text-decoration: underline;
     font-weight: bold;
-}
-body{
-    background-color: burlywood;
-
 }
